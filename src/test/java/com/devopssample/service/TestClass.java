@@ -30,7 +30,7 @@ public class TestClass extends TestCase {
 	public void testFailedAdd() {
 		int total = 9;
 		int sum = add(10, 5);
-		assertNotSame(sum, total);
+		assertEquals(sum, total);
 	}
 
 	@Test
